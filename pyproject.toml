@@ -1,0 +1,19 @@
+[project]
+name = "grpo-arm-robot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "gymnasium>=1.2.2",
+    "torch==2.8.0",
+    "mujoco==3.3.1",
+    "gymnasium-robotics>=1.4.1",
+    "wandb>=0.22.3",
+    "tyro>=0.9.35",
+    "tensorboard>=2.20.0",
+    "huggingface-hub>=1.1.2",
+    "pandas>=2.3.3",
+    "matplotlib>=3.10.7",
+    "seaborn>=0.13.2",
+]
